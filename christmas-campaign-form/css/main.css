@@ -108,8 +108,10 @@ img::-moz-selection {
 .Logo {
 }
 .Logo img {
-    max-width: 298px;
+    max-width: 261px;
     margin-top: 12px !important;
+    width: 198px !important;
+    margin-bottom: 8px;
 }
 .downMobile {
 	display: block;
@@ -5951,7 +5953,7 @@ button#myBtn {
 
 @media only screen and (max-width: 1575px){
 .form-holder {
-    width: 165px;
+    width: 307px;
     padding: 0px 24px;
 }
 }
