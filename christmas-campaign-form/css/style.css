@@ -200,3 +200,7 @@ header.masthead.mobile-bg {
 }
 
 }
+
+.form-holder {
+    min-width: 348px;
+}
