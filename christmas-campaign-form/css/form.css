@@ -18,7 +18,7 @@
     font-size: 14px;
     }
 .contact_form .form-textarea { height: 90px; border-bottom: 1px solid #67bdc3; padding: 10px; }
-.contact_form LABEL {height: 17px;margin: 0px 10px 5px 0px;float: left;}
+.contact_form LABEL {height: 0px;margin: 0px 10px 5px 0px;float: left;}
 .contact_form LABEL:last-child {
     margin-bottom: 0;
 }
