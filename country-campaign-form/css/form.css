@@ -22,10 +22,10 @@
 .contact_form LABEL:last-child {
     margin-bottom: 0;
 }
-.form-submit {width: 100%;height: 45px;border: 0px;border-radius: 12px !important;text-align: center;margin: auto;margin-top: 0;font-weight: 700;color: #ffffff;font-size: 20px;background-size: cover;transition: 300ms;border-radius: 0px;background: -moz-linear-gradient(left, #67bdc3 0%, #67bdc3 100%);background: rgb(0,0,0);background: linear-gradient(90deg, #ff0000 0%, #c70000 60%, #8f0000 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d5764', endColorstr='#3d5764',GradientType=1 );}
+.form-submit {width: 100%;height: 45px;border: 0px;border-radius: 12px !important;text-align: center;margin: auto;margin-top: 0;font-weight: 700;color: #ffffff;font-size: 20px;background-size: cover;transition: 300ms;border-radius: 0px;background: -moz-linear-gradient(left, #67bdc3 0%, #67bdc3 100%);background: rgb(0,0,0);background: linear-gradient(90deg, #e9c45d 0%, #bea04b 60%, #bb9b41 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d5764', endColorstr='#3d5764',GradientType=1 );}
 .contact-error {position: relative;display: block;float: left;width: 100%;text-align: center;}
 .form-submit:hover {cursor: pointer;box-shadow: 0 10px 28PX -2px rgb(253 233 219 / 35%);transition: 300ms;}
-INPUT.inputError, SELECT.inputError {border: 1px solid #F00 !important;/* background: #fff url(../images/form/i_error.png) right center no-repeat !important; *//* background-size: 20px !important; */}
+INPUT.inputError, SELECT.inputError {border: 1px solid #e9c45d !important;/* background: #fff url(../images/form/i_error.png) right center no-repeat !important; *//* background-size: 20px !important; */}
 select option {
     color: #000;
 }
@@ -156,8 +156,7 @@ label[for="izin"] {
 }
 
 .form-holder {
-    background: url(https://lemaclinic.com/form/christmas/webp/form-bg.webp);
-    background-size: cover;
+    background: #141E27;
 }
 
 .Telefon {
