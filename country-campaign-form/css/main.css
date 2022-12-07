@@ -108,10 +108,9 @@ img::-moz-selection {
 .Logo {
 }
 .Logo img {
-    max-width: 261px;
-    margin-top: 12px !important;
-    width: 180px !important;
-    margin-bottom: 8px !important;
+    max-width: 292px;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
 }
 .downMobile {
 	display: block;
