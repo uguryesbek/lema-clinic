@@ -54,6 +54,25 @@ header.masthead.mobile-bg {
     width: auto !important;
     max-width: 422px !important;
 }
+
+.row.flex-row.justify-content-center {
+    width: 350px;
+    margin-left: -56px;
+}
+
+.m23-content.col-xl-9.col-lg-9.pl-5 {
+    margin-top: -80px;
+}
+
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.module-23.grey {
+    margin-top: -58px;
+}
+
 }
 
 @media only screen and (max-width: 1575px){}
