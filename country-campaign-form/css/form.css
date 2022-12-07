@@ -1,0 +1,183 @@
+/* LEMA CLINIC FORM CSS */
+
+.contact_form UL { margin: 0; padding: 0; }
+.contact_form LI {padding: 0;list-style: none;font-size: 9pt;position: relative;line-height: 20px;display: inline-block;width: 100%;margin-bottom: 10px;}
+.contact_form .form-text, .contact_form .form-textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 44px;
+    padding: 0 15px;
+    background-color: #f6f6f6;
+    border-radius: 0px;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    }
+.contact_form .form-textarea { height: 90px; border-bottom: 1px solid #67bdc3; padding: 10px; }
+.contact_form LABEL {height: 0px;margin: 0px 10px 5px 0px;float: left;}
+.contact_form LABEL:last-child {
+    margin-bottom: 0;
+}
+.form-submit {width: 100%;height: 45px;border: 0px;border-radius: 12px !important;text-align: center;margin: auto;margin-top: 0;font-weight: 700;color: #ffffff;font-size: 20px;background-size: cover;transition: 300ms;border-radius: 0px;background: -moz-linear-gradient(left, #67bdc3 0%, #67bdc3 100%);background: rgb(0,0,0);background: linear-gradient(90deg, #ff0000 0%, #c70000 60%, #8f0000 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d5764', endColorstr='#3d5764',GradientType=1 );}
+.contact-error {position: relative;display: block;float: left;width: 100%;text-align: center;}
+.form-submit:hover {cursor: pointer;box-shadow: 0 10px 28PX -2px rgb(253 233 219 / 35%);transition: 300ms;}
+INPUT.inputError, SELECT.inputError {border: 1px solid #F00 !important;/* background: #fff url(../images/form/i_error.png) right center no-repeat !important; *//* background-size: 20px !important; */}
+select option {
+    color: #000;
+}
+::-webkit-input-placeholder {
+ color:    #141E27;
+}
+:-moz-placeholder {
+ color:    #141E27;
+ opacity:  1;
+}
+::-moz-placeholder {
+ color:    #141E27;
+ opacity:  1;
+}
+:-ms-input-placeholder {
+ color:    #ffff;
+}
+.input-group-addon { padding: 5px 10px; font-size: 11px; font-weight: normal; line-height: 1; color: #555; text-align: center; background-color: #484848; border: 1px solid #CCC; border-radius: 4px; }
+
+.ajaxloader { width: 80px; text-align: center; margin: auto; }
+.bubblingG { text-align: center; width: 80px; height: 50px; }
+.bubblingG span { display: inline-block; vertical-align: middle; width: 10px; height: 10px; margin: 25px auto; background: #2f2f2f; -moz-border-radius: 50px; -moz-animation: bubblingG 1.3s infinite alternate; -webkit-border-radius: 50px; -webkit-animation: bubblingG 1.3s infinite alternate; -ms-border-radius: 50px; -ms-animation: bubblingG 1.3s infinite alternate; -o-border-radius: 50px; -o-animation: bubblingG 1.3s infinite alternate; border-radius: 50px; animation: bubblingG 1.3s infinite alternate; }
+#bubblingG_1 { -moz-animation-delay: 0s; -webkit-animation-delay: 0s; -ms-animation-delay: 0s; -o-animation-delay: 0s; animation-delay: 0s; }
+#bubblingG_2 { -moz-animation-delay: 0.39s; -webkit-animation-delay: 0.39s; -ms-animation-delay: 0.39s; -o-animation-delay: 0.39s; animation-delay: 0.39s; }
+#bubblingG_3 { -moz-animation-delay: 0.78s; -webkit-animation-delay: 0.78s; -ms-animation-delay: 0.78s; -o-animation-delay: 0.78s; animation-delay: 0.78s; }
+.radiovalidate { POSITION: ABSOLUTE; right: -3px; top: 6px; width: 24px; }
+.izin { margin: 5px auto; width: 140px; }
+ @-moz-keyframes bubblingG {
+0% {
+width: 10px;
+height: 10px;
+background-color:#2f2f2f;
+-moz-transform: translateY(0);
+}
+ 100% {
+width: 24px;
+height: 24px;
+background-color:#579bcd;
+-moz-transform: translateY(-21px);
+}
+}
+ @-webkit-keyframes bubblingG {
+0% {
+ width: 10px;
+height: 10px;
+background-color:#2f2f2f;
+-webkit-transform: translateY(0);
+}
+ 100% {
+width: 24px;
+height: 24px;
+background-color:#579bcd;
+-webkit-transform: translateY(-21px);
+}
+}
+ @-ms-keyframes bubblingG {
+0% {
+width: 10px;
+height: 10px;
+background-color:#2f2f2f;
+-ms-transform: translateY(0);
+}
+ 100% {
+width: 24px;
+height: 24px;
+background-color:#579bcd;
+-ms-transform: translateY(-21px);
+}
+}
+ @-o-keyframes bubblingG {
+0% {
+width: 10px;
+height: 10px;
+background-color:#2f2f2f;
+-o-transform: translateY(0);
+}
+ 100% {
+width: 24px;
+height: 24px;
+background-color:#579bcd;
+-o-transform: translateY(-21px);
+}
+}
+ @keyframes bubblingG {
+0% {
+ width: 10px;
+height: 10px;
+background-color:#2f2f2f;
+transform: translateY(0);
+}
+ 100% {
+width: 24px;
+height: 24px;
+background-color:#579bcd;
+transform: translateY(-21px);
+}
+}
+p.agree a {color: #ffffff;font-weight: 700;text-decoration: underline;}
+p.agree {padding: 0px 0px 15px;color: #ffffff;width: 100%;display: inline-block;}
+select#Ulke {width: 112px;float: left;margin-right: -1px;}
+
+.intl-tel-input.tel-container {
+    float: left;
+    width: 100%;
+    margin: 5px 0 -5px 0;
+}
+
+
+.success {
+ color: ##19d231;
+}
+.failed, #error-msg {
+ color: #ff1010;
+}
+.success, .failed, .hide {
+ display: none;
+}
+input#izin {
+    float: left;
+    margin: 5px 15px 0 0;
+}
+label[for="izin"] {
+    height: 17px;
+    margin: 0;
+    float: left;
+    width: calc(100% - 36px);
+    color: #3d5764;
+}
+
+.form-holder {
+    background: url(https://lemaclinic.com/form/christmas/webp/form-bg.webp);
+    background-size: cover;
+}
+
+.Telefon {
+    margin-top: 32px;
+}
+
+.formicon {
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+img.formimage {
+    max-width: 102px;
+    margin: 8px;
+}
+
+
+@media only screen and (min-width: 600px) {
+img.formimage {
+    max-width: 74px;
+    margin: 2px;
+}
+}
