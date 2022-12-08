@@ -137,6 +137,12 @@ img::-moz-selection {
 	.downMobile img {
 		max-width: 15px;
 	}
+
+	.formicon {
+    margin-top: -23px;
+    visibility: hidden;
+    margin-bottom: 0px;
+}
 }
 @-webkit-keyframes zip {
 	0% {
@@ -260,7 +266,7 @@ header.masthead {
 	background-position: left top;
 	background-size: cover;
 	position: relative;
-	height: 1318px;
+	height: 1402px;
 }
 
 
