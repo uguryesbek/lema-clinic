@@ -266,7 +266,7 @@ header.masthead {
 	background-position: left top;
 	background-size: cover;
 	position: relative;
-	height: 1402px;
+	height: auto;
 }
 
 
@@ -700,6 +700,10 @@ footer {
 		font-size: 28px;
 		line-height: 60px;
 	}
+
+	header.masthead {
+	height: 1402px;
+}
 
 	.logo-container {
 		background: #272b5a;
